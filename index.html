@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>タイピングゲーム</title>
+  <link rel="stylesheet" href="cs/style.css">
+</head>
+
+<body>
+  
+  <div id="characters">
+    <div id="title">タイピングゲーム</div>
+    <p id="katakana">ここにかなが入力表示されるよ</p>
+    <p id="kotoba">ここに日本語が入力表示されるよ</p>
+    <p><span id="typed"></span><span id="untyped">ここにローマ字が表示されるよ</span></p>
+    <div id="count">　</div>
+
+    <p id="time">00:00:30:000</p>
+    <input id="start" type="button" value="start" class="disabled">
+    <input id="reset" type="button" value="reset" class="disabled">
+    <p id="hidden">Startを押してね</p>
+    <p id="result" class="hidden"></p>
+  </div>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
